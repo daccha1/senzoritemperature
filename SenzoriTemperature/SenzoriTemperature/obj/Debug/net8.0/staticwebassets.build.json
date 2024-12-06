@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "+0af5iihj4ijW69nRcIBlIlZBuqepbPQ2KEVvYZatcs=",
+  "Source": "SenzoriTemperature",
+  "BasePath": "_content/SenzoriTemperature",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
