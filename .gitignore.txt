@@ -1,16 +1,9 @@
-# Ignoriši Visual Studio fajlove i direktorijume
 .vs/
 .vscode/
 .idea/
-
-# Ignoriši build direktorijume
 bin/
 obj/
-
-# Ignoriši node_modules za frontend projekat
 node_modules/
-
-# Ignoriši fajlove sa ekstenzijama koje nisu relevantne
 *.vsix
 *.user
 *.userosscache

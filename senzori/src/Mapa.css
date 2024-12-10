@@ -5,6 +5,14 @@
     flex-direction: column;
 }
 
+.button-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
 .no-inputs-container{
     display:flex;
     gap: 30px;
@@ -48,4 +56,32 @@
 .btn:active{
     background-color: rgb(38, 94, 180);
     transition: 0.09s;
+}
+
+.btn-dodaj{
+    background-color: rgb(39, 223, 52);
+    color: white;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-dodaj:hover{
+    background-color: rgb(27, 202, 39); 
+    transition: 200ms;   
+}
+
+.btn-obrisi{
+    background-color: rgb(233, 27, 27);
+    color: white;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-obrisi:hover{
+    background-color: rgb(210, 25, 25); 
+    transition: 200ms;   
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SenzoriTemperature")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe034482bced6b0573f88e1cd54e0977a2929f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SenzoriTemperature")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SenzoriTemperature")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

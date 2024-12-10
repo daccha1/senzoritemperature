@@ -5156,11 +5156,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
       "projectName": "SenzoriTemperature",
-      "projectPath": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
+      "projectPath": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\obj\\",
+      "outputPath": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5171,6 +5171,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5232,7 +5233,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

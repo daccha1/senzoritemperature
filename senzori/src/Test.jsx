@@ -1,30 +1,33 @@
-import React, { useState } from 'react'
-
+import React, { useState } from "react";
 
 export default function Test() {
+  const [buttons, setButtons] = useState([
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+  ]);
 
-    const [buttons, setButtons] = useState([false, true, true, true, true, false]);
+  const handleVrednosti = (index) => {
+    const newButtons = buttons;
 
-    const handleVrednosti = (index) => {
+    buttons[index] = true;
 
-        const newButtons = buttons;
-        
-        buttons[index] = true;
+    for (let i = 0; i < buttons.length; i++) {
+      if (buttons[i] === true && i !== index) {
+        newButtons[i] = false;
+      }
+    }
 
-        for(let i = 0; i<buttons.length; i++){
-        
-          if(buttons[i] === true && i !== index){
-            newButtons[i] = false;
-          }
-        }
+    setButtons(newButtons);
+    console.log(buttons);
+  };
 
-        setButtons(newButtons);
-        console.log(buttons);
-      };
-
-    return (
+  return (
     <div>
-        <button onClick={() => handleVrednosti(1)}>Klikni me</button>
+      <button onClick={() => handleVrednosti(1)}>Klikni me</button>
     </div>
-  )
+  );
 }

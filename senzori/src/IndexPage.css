@@ -1,0 +1,12 @@
+.main-container{
+    height: 100%;
+    width: 100vw;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container{
+    background-color: rgb(223, 223, 223);
+}

@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\",
+  "WorkspaceRootPath": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|d:\\senzor-temperature\\senzor\\senzoritemperature\\senzoritemperature\\services\\isenzorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\services\\isenzorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|c:\\users\\david\\desktop\\senzoriapp\\senzoritemperature\\senzoritemperature\\senzoritemperature\\migrations\\20241206203008_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\migrations\\20241206203008_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|d:\\senzor-temperature\\senzor\\senzoritemperature\\senzoritemperature\\controllers\\senzorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\controllers\\senzorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|d:\\senzor-temperature\\senzor\\senzoritemperature\\senzoritemperature\\data\\senzorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|c:\\users\\david\\desktop\\senzoriapp\\senzoritemperature\\senzoritemperature\\senzoritemperature\\data\\senzorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\data\\senzorcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|d:\\senzor-temperature\\senzor\\senzoritemperature\\senzoritemperature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|c:\\users\\david\\desktop\\senzoriapp\\senzoritemperature\\senzoritemperature\\senzoritemperature\\services\\isenzorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\services\\isenzorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|c:\\users\\david\\desktop\\senzoriapp\\senzoritemperature\\senzoritemperature\\senzoritemperature\\controllers\\senzorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\controllers\\senzorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|c:\\users\\david\\desktop\\senzoriapp\\senzoritemperature\\senzoritemperature\\senzoritemperature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2FF7A69-D0E4-45D1-A104-ADC3BC24E25E}|SenzoriTemperature\\SenzoriTemperature.csproj|solutionrelative:senzoritemperature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,8 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 18,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{0849e941-4665-42e5-8dd0-e4c8da15dbd0}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -35,35 +107,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20241206203008_initialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Migrations\\20241206203008_initialMigration.cs",
+              "RelativeDocumentMoniker": "SenzoriTemperature\\Migrations\\20241206203008_initialMigration.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Migrations\\20241206203008_initialMigration.cs",
+              "RelativeToolTip": "SenzoriTemperature\\Migrations\\20241206203008_initialMigration.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T20:30:10.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ISenzorRepository.cs",
-              "DocumentMoniker": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Services\\ISenzorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Services\\ISenzorRepository.cs",
               "RelativeDocumentMoniker": "SenzoriTemperature\\Services\\ISenzorRepository.cs",
-              "ToolTip": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Services\\ISenzorRepository.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Services\\ISenzorRepository.cs",
               "RelativeToolTip": "SenzoriTemperature\\Services\\ISenzorRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T16:27:32.91Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "SenzorContext.cs",
-              "DocumentMoniker": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Data\\SenzorContext.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Data\\SenzorContext.cs",
               "RelativeDocumentMoniker": "SenzoriTemperature\\Data\\SenzorContext.cs",
-              "ToolTip": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Data\\SenzorContext.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Data\\SenzorContext.cs",
               "RelativeToolTip": "SenzoriTemperature\\Data\\SenzorContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAD5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T22:20:36.306Z"
+              "WhenOpened": "2024-11-27T22:20:36.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SenzorController.cs",
-              "DocumentMoniker": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Controllers\\SenzorController.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Controllers\\SenzorController.cs",
               "RelativeDocumentMoniker": "SenzoriTemperature\\Controllers\\SenzorController.cs",
-              "ToolTip": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Controllers\\SenzorController.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Controllers\\SenzorController.cs",
               "RelativeToolTip": "SenzoriTemperature\\Controllers\\SenzorController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,11 +157,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Program.cs",
               "RelativeDocumentMoniker": "SenzoriTemperature\\Program.cs",
-              "ToolTip": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\Program.cs",
+              "ToolTip": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\Program.cs",
               "RelativeToolTip": "SenzoriTemperature\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
