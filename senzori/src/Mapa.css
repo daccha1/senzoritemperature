@@ -2,7 +2,6 @@
 
 .main-container{
     display:flex;
-    flex-direction: column;
 }
 
 .button-container{
@@ -10,7 +9,6 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin-bottom: 20px;
 }
 
 .no-inputs-container{
@@ -21,7 +19,7 @@
 
 .inputs-container{
     display:flex;
-    gap: 10px;
+    gap: 50px;
     flex-wrap: wrap;
     margin-top: 20px;
     
@@ -33,11 +31,8 @@
     gap: 10px;
 }
 
-.withInput{
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 5px;
-    
+.input-container.withInput input{
+    width: 100%;
 }
 
 .btn{
@@ -59,7 +54,7 @@
 }
 
 .btn-dodaj{
-    background-color: rgb(39, 223, 52);
+    background-color: rgb(37, 196, 48);
     color: white;
     height: 40px;
     width: 140px;
@@ -68,7 +63,7 @@
 }
 
 .btn-dodaj:hover{
-    background-color: rgb(27, 202, 39); 
+    background-color: rgb(21, 154, 30); 
     transition: 200ms;   
 }
 

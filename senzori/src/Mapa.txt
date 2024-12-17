@@ -70,49 +70,21 @@ export default function Mapa({ svi }) {
           <h1 id="title-appname" style={{fontSize: '32pt'}}>FrigoMonitor</h1>
         </div>
         
-
+        
         <div className="button-container">
           <button className="btn-dodaj" onClick={routeToAdd}>Dodaj</button> 
           <button className="btn-obrisi">Obrisi</button>
         </div>
 
+        <div class="no-inputs-container">
+          <div class="input-container noInput">
+            <label>Prikazite lokacije svih sistema: </label>
 
-        <div className="inputs-container">
-           
-          <div className="inputs-instance">
-            <div class="input-container noInput">
-                <label>Prikazite lokacije svih sistema: </label>
-                <button class="btn" key={0} onClick={handleButtonClickPrikazi}>
-                  {dugmeValue ? "Sakrij" : "Prikaži"}
-                </button>
-            </div>
-            
-            <div className="input-container withInput">
-              <label>Prikaz sistema po partnerima:</label>
-              <input
-                value={partner}
-                onChange={(e) => setPartner(e.target.value)}
-                type="text"
-                placeholder="Unesite poslovnog partnera"
-               />
-              <button
-                class="btn"
-                key={3}
-                onClick={() => {
-                  handleButtonValues(2);
-                  handleButtonGet(
-                    `https://localhost:7050/api/Senzor/partner/${partner}`
-                  );
-                }}
-              >
-                {buttons[2] ? "Sakrij" : "Prikaži"}
-              </button>
+            <button class="btn" key={0} onClick={handleButtonClickPrikazi}>
+              {dugmeValue ? "Sakrij" : "Prikaži"}
+            </button>
           </div>
-        </div>
 
-
-
-        <div className="inputs-instance">
           <div class="input-container noInput">
             <label>Prikazite lokacije pokvarenih sistema: </label>
             <button
@@ -126,6 +98,47 @@ export default function Mapa({ svi }) {
               {buttons[0] ? "Sakrij" : "Prikaži"}
             </button>
           </div>
+
+          <div class="input-container noInput">
+            <label>Prikazite sve poslovne partnere: </label>
+            <button
+              class="btn"
+              key={2}
+              onClick={() => {
+                handleButtonValues(1);
+                handleButtonGet(
+                  `https://localhost:7050/api/Senzor/poslovni-partneri`
+                );
+              }}
+            >
+              {buttons[1] ? "Sakrij" : "Prikaži"}
+            </button>
+          </div>
+        </div>
+
+        <div className="inputs-container">
+          <div className="input-container withInput">
+            <label>Prikaz sistema po partnerima:</label>
+            <input
+              value={partner}
+              onChange={(e) => setPartner(e.target.value)}
+              type="text"
+              placeholder="Unesite poslovnog partnera"
+            />
+            <button
+              class="btn"
+              key={3}
+              onClick={() => {
+                handleButtonValues(2);
+                handleButtonGet(
+                  `https://localhost:7050/api/Senzor/partner/${partner}`
+                );
+              }}
+            >
+              {buttons[2] ? "Sakrij" : "Prikaži"}
+            </button>
+          </div>
+
           <div className="input-container withInput">
             <label>Prikaz sistema po lokacijama::</label>
             <input
@@ -147,29 +160,7 @@ export default function Mapa({ svi }) {
               {buttons[3] ? "Sakrij" : "Prikaži"}
             </button>
           </div>
-        
-        
-        
-        </div>  {/* div inputs instance*/}
 
-
-        <div className="inputs-instance">
-        <div class="input-container noInput">
-            <label>Prikazite sve poslovne partnere: </label>
-            <button
-              class="btn"
-              key={2}
-              onClick={() => {
-                handleButtonValues(1);
-                handleButtonGet(
-                  `https://localhost:7050/api/Senzor/poslovni-partneri`
-                );
-              }}
-            >
-              {buttons[1] ? "Sakrij" : "Prikaži"}
-            </button>
-          </div>        
-        
           <div className="input-container withInput">
             <label>Prikaz sistema po ID-u:</label>
             <input
@@ -192,19 +183,13 @@ export default function Mapa({ svi }) {
               {buttons[4] ? "Sakrij" : "Prikaži"}
             </button>
           </div>
-
-
-
-        </div>
-
-
         </div>
       </div>
 
       <GoogleMap
         center={centar}
         zoom={15}
-        mapContainerStyle={{ width: "100%", height: "100vh" }}
+        mapContainerStyle={{ width: "100vw", height: "80%", top: "30px" }}
         options={{
           fullscreenControl: false,
           streetViewControl: true,

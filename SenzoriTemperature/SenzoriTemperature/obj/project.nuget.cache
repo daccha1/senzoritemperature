@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7AbsR46zhJ8=",
+  "dgSpecHash": "3j0QGwaa/N1pk7NeCUIDP7qB/msMCZRa9UBAvemNwQAf591QzGGo8OKGabx/F1HNJvPchOe5FqyHPD36MAmwqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\Desktop\\SenzoriApp\\senzoritemperature\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
+  "projectFilePath": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
