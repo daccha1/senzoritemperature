@@ -23,7 +23,7 @@ export default function GeocodeFunkcija({
 
   useEffect(() => {
     async function geoCode(address) {
-      const apiKey = "";
+      const apiKey = "AIzaSyDAeaWxQccUeaz-faM5JI-T-9IvIE-QL7g";
       const url = `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(
         address
       )}&key=${apiKey}`;

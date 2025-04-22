@@ -1,12 +1,13 @@
 using SenzoriTemperature.Services;
+using Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 
 builder.Services.AddTransient<ISenzorRepository, SQLSenzorRepository>();
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddTransient<RequestLogging>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddCors(options =>
@@ -19,7 +20,13 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseMiddleware<RequestLogging>();
+
+app.Run(async (HttpContext context) =>
+{
+    Console.WriteLine($"Request end.\n");
+});
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

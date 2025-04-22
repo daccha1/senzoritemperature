@@ -1,0 +1,12 @@
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.GeneratedMSBuildEditorConfig.editorconfig
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.AssemblyInfoInputs.cache
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.AssemblyInfo.cs
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.csproj.CoreCompileInputs.cache
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\bin\Debug\net8.0\Middlewares.deps.json
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\bin\Debug\net8.0\Middlewares.dll
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\bin\Debug\net8.0\Middlewares.pdb
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.csproj.AssemblyReference.cache
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.dll
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\refint\Middlewares.dll
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\Middlewares.pdb
+F:\Frigo Monitor\SenzoriTemperature\Middlewares\obj\Debug\net8.0\ref\Middlewares.dll

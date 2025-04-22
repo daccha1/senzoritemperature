@@ -22,7 +22,6 @@ export default function Mapa({ svi }) {
   const [idSenzora, setIdSenzora] = useState("");
   const [mapsLoad, setMapsLoad] = useState(false);
 
-
   const nav = useNavigate();
 
   // handleButton za prikaz svih sistema
@@ -59,34 +58,34 @@ export default function Mapa({ svi }) {
   };
 
   const routeToAdd = () => {
-    nav('/add');
-  }
+    nav("/add");
+  };
 
   return (
     <LoadScript googleMapsApiKey={"AIzaSyDAeaWxQccUeaz-faM5JI-T-9IvIE-QL7g"}>
       <div class="main-container">
-        
         <div className="tekst-container">
-          <h1 id="title-appname" style={{fontSize: '32pt'}}>FrigoMonitor</h1>
+          <h1 id="title-appname" style={{ fontSize: "32pt" }}>
+            FrigoMonitor
+          </h1>
         </div>
-        
 
         <div className="button-container">
-          <button className="btn-dodaj" onClick={routeToAdd}>Dodaj</button> 
+          <button className="btn-dodaj" onClick={routeToAdd}>
+            Dodaj
+          </button>
           <button className="btn-obrisi">Obrisi</button>
         </div>
 
-
         <div className="inputs-container">
-           
           <div className="inputs-instance">
             <div class="input-container noInput">
-                <label>Prikazite lokacije svih sistema: </label>
-                <button class="btn" key={0} onClick={handleButtonClickPrikazi}>
-                  {dugmeValue ? "Sakrij" : "Prikaži"}
-                </button>
+              <label>Prikazite lokacije svih sistema: </label>
+              <button class="btn" key={0} onClick={handleButtonClickPrikazi}>
+                {dugmeValue ? "Sakrij" : "Prikaži"}
+              </button>
             </div>
-            
+
             <div className="input-container withInput">
               <label>Prikaz sistema po partnerima:</label>
               <input
@@ -94,7 +93,7 @@ export default function Mapa({ svi }) {
                 onChange={(e) => setPartner(e.target.value)}
                 type="text"
                 placeholder="Unesite poslovnog partnera"
-               />
+              />
               <button
                 class="btn"
                 key={3}
@@ -107,97 +106,85 @@ export default function Mapa({ svi }) {
               >
                 {buttons[2] ? "Sakrij" : "Prikaži"}
               </button>
+            </div>
           </div>
-        </div>
+          <div className="inputs-instance">
+            <div class="input-container noInput">
+              <label>Prikazite lokacije pokvarenih sistema: </label>
+              <button
+                class="btn"
+                key={1}
+                onClick={() => {
+                  handleButtonValues(0);
+                  handleButtonGet(`https://localhost:7050/api/Senzor/bad`);
+                }}
+              >
+                {buttons[0] ? "Sakrij" : "Prikaži"}
+              </button>
+            </div>
+            <div className="input-container withInput">
+              <label>Prikaz sistema po lokacijama::</label>
+              <input
+                value={lokacija}
+                onChange={(e) => setLokacija(e.target.value)}
+                type="text"
+                placeholder="Unesite lokaciju"
+              />
+              <button
+                class="btn"
+                key={4}
+                onClick={() => {
+                  handleButtonValues(3);
+                  handleButtonGet(
+                    `https://localhost:7050/api/Senzor/location/${lokacija}`
+                  );
+                }}
+              >
+                {buttons[3] ? "Sakrij" : "Prikaži"}
+              </button>
+            </div>
+          </div>{" "}
+          {/* div inputs instance*/}
+          <div className="inputs-instance">
+            <div class="input-container noInput">
+              <label>Prikazite sve poslovne partnere: </label>
+              <button
+                class="btn"
+                key={2}
+                onClick={() => {
+                  handleButtonValues(1);
+                  handleButtonGet(
+                    `https://localhost:7050/api/Senzor/poslovni-partneri`
+                  );
+                }}
+              >
+                {buttons[1] ? "Sakrij" : "Prikaži"}
+              </button>
+            </div>
 
+            <div className="input-container withInput">
+              <label>Prikaz sistema po ID-u:</label>
+              <input
+                value={idSenzora}
+                onChange={(e) => setIdSenzora(e.target.value)}
+                type="text"
+                placeholder="Unesite ID sistema"
+              />
 
-
-        <div className="inputs-instance">
-          <div class="input-container noInput">
-            <label>Prikazite lokacije pokvarenih sistema: </label>
-            <button
-              class="btn"
-              key={1}
-              onClick={() => {
-                handleButtonValues(0);
-                handleButtonGet(`https://localhost:7050/api/Senzor/bad`);
-              }}
-            >
-              {buttons[0] ? "Sakrij" : "Prikaži"}
-            </button>
+              <button
+                class="btn"
+                key={5}
+                onClick={() => {
+                  handleButtonValues(4);
+                  handleButtonGet(
+                    `https://localhost:7050/api/Senzor/id?id=${idSenzora}`
+                  );
+                }}
+              >
+                {buttons[4] ? "Sakrij" : "Prikaži"}
+              </button>
+            </div>
           </div>
-          <div className="input-container withInput">
-            <label>Prikaz sistema po lokacijama::</label>
-            <input
-              value={lokacija}
-              onChange={(e) => setLokacija(e.target.value)}
-              type="text"
-              placeholder="Unesite lokaciju"
-            />
-            <button
-              class="btn"
-              key={4}
-              onClick={() => {
-                handleButtonValues(3);
-                handleButtonGet(
-                  `https://localhost:7050/api/Senzor/location/${lokacija}`
-                );
-              }}
-            >
-              {buttons[3] ? "Sakrij" : "Prikaži"}
-            </button>
-          </div>
-        
-        
-        
-        </div>  {/* div inputs instance*/}
-
-
-        <div className="inputs-instance">
-        <div class="input-container noInput">
-            <label>Prikazite sve poslovne partnere: </label>
-            <button
-              class="btn"
-              key={2}
-              onClick={() => {
-                handleButtonValues(1);
-                handleButtonGet(
-                  `https://localhost:7050/api/Senzor/poslovni-partneri`
-                );
-              }}
-            >
-              {buttons[1] ? "Sakrij" : "Prikaži"}
-            </button>
-          </div>        
-        
-          <div className="input-container withInput">
-            <label>Prikaz sistema po ID-u:</label>
-            <input
-              value={idSenzora}
-              onChange={(e) => setIdSenzora(e.target.value)}
-              type="text"
-              placeholder="Unesite ID sistema"
-            />
-
-            <button
-              class="btn"
-              key={5}
-              onClick={() => {
-                handleButtonValues(4);
-                handleButtonGet(
-                  `https://localhost:7050/api/Senzor/id?id=${idSenzora}`
-                );
-              }}
-            >
-              {buttons[4] ? "Sakrij" : "Prikaži"}
-            </button>
-          </div>
-
-
-
-        </div>
-
-
         </div>
       </div>
 

@@ -18,21 +18,40 @@ namespace SenzoriTemperature.Services
 
     public class SQLSenzorRepository : ISenzorRepository
     {
-        public void dodajSenzor(Senzor s)
+        private readonly SenzorContext context;
+        public SQLSenzorRepository()
         {
-            SenzorContext context = new SenzorContext();
+            context = new SenzorContext();
+        }
 
+        public void dodajSenzor(Senzor? s)
+        {
+           
             var senzor = context.Senzori.FirstOrDefault(x => x.id == s.id);
 
             if(senzor == null)
             {
-                context.Add(s);
-                context.SaveChanges();
-                return;
+                if(s == null)
+                {
+                    throw new ArgumentException("Senzor koji dodajete nije inicijalizovan");
+                }
+
+                if (s.id == null || s.poslovniPartner == null ||
+                    s.temperatura == null || s.lokacija == null ||
+                    s.vremeMerenja == null)
+                {
+                    throw new ArgumentException("Neki od obaveznih podataka je null");
+                }
+                else
+                {
+                    context.Add(s);
+                    context.SaveChanges();
+                    return;
+                }
             }
             else
             {
-                throw new Exception("Senzor vec postoji");
+                throw new InvalidOperationException("Senzor vec postoji");
             }
 
         }
@@ -47,22 +66,16 @@ namespace SenzoriTemperature.Services
         {
             SenzorContext context = new SenzorContext();
 
-            List<Senzor> lista = context.Senzori.ToList();
+            List<Senzor>? lista = context.Senzori.ToList();
 
             if(lista == null)
             {
-                throw new Exception("Lista je prazna");
+                throw new Exception("List is not initialized");
             }
 
-            List<Senzor> losi = new List<Senzor>();
-            
-            foreach(Senzor s in lista)
-            {
-                if(s.temperatura > 10)
-                {
-                    losi.Add(s);
-                }
-            }
+            List<Senzor>? losi = new List<Senzor>();
+
+            losi = context.Senzori.Where(senzor => senzor.temperatura > 10).ToList();
 
             return losi;
 
@@ -81,7 +94,13 @@ namespace SenzoriTemperature.Services
         {
             SenzorContext context = new SenzorContext();
 
-            List<Senzor> listaLokacija = context.Senzori.Where(s => s.poslovniPartner == partner).ToList();
+            List<Senzor>? listaLokacija = context.Senzori.Where(s => s.poslovniPartner == partner).ToList();
+            // .toList() does not return null, it returns an empty list
+            if(listaLokacija.Count == 0)
+            {
+                throw new ArgumentException();
+            }
+
             return listaLokacija;
         }
 

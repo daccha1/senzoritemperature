@@ -30,12 +30,13 @@ namespace SenzoriTemperature.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
-                    b.Property<DateTime>("datumServisa")
+                    b.Property<DateTime?>("datumServisa")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("lokacija")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
 
                     b.Property<string>("poslovniPartner")
                         .IsRequired()

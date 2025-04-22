@@ -17,11 +17,35 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SenzoriTemperature
 build_property.RootNamespace = SenzoriTemperature
-build_property.ProjectDir = D:\senzor-temperature\senzor\SenzoriTemperature\SenzoriTemperature\
+build_property.ProjectDir = F:\Frigo Monitor\SenzoriTemperature\SenzoriTemperature\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\senzor-temperature\senzor\SenzoriTemperature\SenzoriTemperature
+build_property.MSBuildProjectDirectory = F:\Frigo Monitor\SenzoriTemperature\SenzoriTemperature
 build_property._RazorSourceGeneratorDebug = 
+
+[F:/Frigo Monitor/SenzoriTemperature/SenzoriTemperature/Views/Senzors/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuem9yc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Frigo Monitor/SenzoriTemperature/SenzoriTemperature/Views/Senzors/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuem9yc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Frigo Monitor/SenzoriTemperature/SenzoriTemperature/Views/Senzors/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuem9yc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Frigo Monitor/SenzoriTemperature/SenzoriTemperature/Views/Senzors/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuem9yc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Frigo Monitor/SenzoriTemperature/SenzoriTemperature/Views/Senzors/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2Vuem9yc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Frigo Monitor/SenzoriTemperature/SenzoriTemperature/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

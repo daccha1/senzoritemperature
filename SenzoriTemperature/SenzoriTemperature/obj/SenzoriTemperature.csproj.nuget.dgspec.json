@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj": {}
+    "F:\\Frigo Monitor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj": {}
   },
   "projects": {
-    "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj": {
+    "F:\\Frigo Monitor\\SenzoriTemperature\\Middlewares\\Middlewares.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
-        "projectName": "SenzoriTemperature",
-        "projectPath": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
+        "projectUniqueName": "F:\\Frigo Monitor\\SenzoriTemperature\\Middlewares\\Middlewares.csproj",
+        "projectName": "Middlewares",
+        "projectPath": "F:\\Frigo Monitor\\SenzoriTemperature\\Middlewares\\Middlewares.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "D:\\senzor-temperature\\senzor\\SenzoriTemperature\\SenzoriTemperature\\obj\\",
+        "outputPath": "F:\\Frigo Monitor\\SenzoriTemperature\\Middlewares\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,12 +22,84 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Frigo Monitor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Frigo Monitor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
+        "projectName": "SenzoriTemperature",
+        "projectPath": "F:\\Frigo Monitor\\SenzoriTemperature\\SenzoriTemperature\\SenzoriTemperature.csproj",
+        "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
+        "outputPath": "F:\\Frigo Monitor\\SenzoriTemperature\\SenzoriTemperature\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\David\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "F:\\Frigo Monitor\\SenzoriTemperature\\Middlewares\\Middlewares.csproj": {
+                "projectPath": "F:\\Frigo Monitor\\SenzoriTemperature\\Middlewares\\Middlewares.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +131,10 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
@@ -83,7 +159,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
